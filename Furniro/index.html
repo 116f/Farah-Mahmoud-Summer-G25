@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro Cart</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo d-flex align-items-center">
+                <img src="images/icon1.png" alt="logo">
+                <h2>Furniro</h2>
+            </div>
+            <ul class="d-flex nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons d-flex">
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="cart-header">
+        <div class="header-content ">
+            <img src="images/icon1.png" alt="icon" class="header-icon">
+            <h1>Cart</h1>
+        </div>
+        <p ><span class="bold">Home > </span>Cart</p>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="cart container d-flex">
+        <!-- Cart Items -->
+        <div class="cart-items">
+            <div class="cart-row header d-flex justify-content-between bg-light">
+                <span>Product</span>
+                <span>Price</span>
+                <span>Quantity</span>
+                <span>Subtotal</span>
+            </div>
+
+            <div class="cart-row d-flex justify-content-between align-items-center">
+                <div class="product d-flex align-items-center">
+                    <img src="images/Asgaard sofa 5.png" alt="sofa">
+                    <span class="text-gray">Asgaard sofa</span>
+                </div>
+                <span class="text-gray">Rs. 250,000.00</span>
+                <input type="number" value="1" min="1">
+                <div class="d-flex align-items-center">
+                    <span>Rs. 250,000.00</span>
+                    <i class="fa-solid fa-trash color trash-icon "></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Totals -->
+        <div class="cart-totals bg-light">
+            <h2 class="center">Cart Totals</h2>
+            <div class="d-flex justify-content-between margin-top">
+                <span>Subtotal</span>
+                <span class="text-gray">Rs. 250,000.00</span>
+            </div>
+            <div class="d-flex justify-content-between total">
+                <span>Total</span>
+                <span class="highlight">Rs. 250,000.00</span>
+            </div>
+            <input type="submit" value="Check Out" class="checkout-btn margin-left">
+
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features d-flex justify-content-between   bg-light">
+         <i class="fa-solid fa-crown"></i>
+        <div class="feature">
+           
+            <p>
+                <span class="bold">High Quality</span>
+                <span class="sub-text text-gray">crafted from top materials</span>
+            </p>
+
+        </div>
+
+        <i class="fa-solid fa-shield-halved"></i>
+<div class="feature">
+    <p>
+        <span class="bold">Warranty Protection</span>
+        <span class="sub-text text-gray">Over 2 years</span>
+    </p>
+</div>
+<i class="fa-solid fa-truck"></i>
+<div class="feature">
+    <p>
+        <span class="bold">Free Shipping</span>
+        <span class="sub-text text-gray">Order over 150 $</span>
+    </p>
+</div>
+<i class="fa-solid fa-headset"></i>
+<div class="feature">
+   
+    <p>
+        <span class="bold">24 / 7 Support</span>
+        <span class="sub-text text-gray">Dedicated support</span>
+    </p>
+</div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- العمود الأول -->
+        <div class="footer-column">
+            <h2 class="logo">Funiro.</h2>
+            <p class="address">
+                400 University Drive Suite 200 Coral Gables, <br>
+                FL 33134 USA
+            </p>
+        </div>
+
+        <!-- العمود الثاني -->
+        <div class="footer-column">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- العمود الثالث -->
+        <div class="footer-column">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+            </ul>
+        </div>
+
+        <!-- العمود الرابع -->
+        <div class="footer-column newsletter">
+            <h4>Newsletter</h4>
+            <form>
+                <input type="email" placeholder="Enter Your Email Address">
+                <input type="submit" value="SUBSCRIBE">
+            </form>
+        </div>
+    </div>
+
+    <!-- حقوق الملكية -->
+    <div class="footer-bottom">
+        <p>2023 funiro. All rights reserved</p>
+    </div>
+</footer>
+
+</body>
+</html>
