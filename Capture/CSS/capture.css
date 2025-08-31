@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.bg-dark{
+    background-color: rgb(29, 29, 29);
+}
+
+ul{
+    list-style: none;
+}
+.display-inline-block{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    padding: 1% 0%;
+
+}
+
+nav ul {
+    margin-left: 60%;
+    width: 30%;
+}
+
+nav ul li {
+    margin-left: 3%;
+}
+
+.text-white{
+    color: white;
+}
+
+.logo{
+    font-size:40px;
+    font-weight: 600;
+    font-family: 'Poppins',  sans-serif;
+    color:white;
+}
+
+.span{
+
+    font-weight:100;
+    color:orange;
+}
+
+.card{
+    width: 30%;
+    margin-left:5%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius:8px;
+    box-shadow: 0px 0px 7px 1px lightgray;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.custom-padding{
+    padding: 3% 0%;
+}
+
+
+.card-details{
+    padding: 1%;
+
+    
+}
+
+
+.bg-img{
+    background-image: url(../images/OIP.webp);
+    background-color: bisque;
+    background-position-x: right;
+    background-position-y: center;
+    background-position: left bottom;
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed;
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    height: 100%;
+}
+
+.bg-white{
+    background-color: white;
+    color: black;
+}
+
+.left-content{
+    display:inline-block;
+    width:60%;
+    vertical-align:top;
+}
+
+.br{
+    width:400px;
+    line-height: 1.4;
+    font-weight: 50;
+    font-family:sans-serif;
+    padding:3% 0;
+    margin-bottom:10px;
+
+}
+
+
+.hr{
+    width:60px;
+    height: 2px;
+    background-color: white;
+    border:none;
+    margin-left:20px auto;
+    margin-bottom: 20px;
+
+}
+
+.font-p{
+    width:400px;
+    color:lightgray;
+    font-family:sans-serif;
+    
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background-color:transparent;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size:16px;
+    font-weight: bold;
+    margin:5% 0;
+    border-style: solid;
+
+
+}
+
+.font-span{
+     color:rgb(224, 145, 41);
+     font-size:large;
+     } 
+
+.font{
+     text-align: center;
+      font-size:large;
+       padding:3%;
+        width:100%; 
+        background-color: lightgray;
+} 
+
+
+.Buttons{ 
+    padding:5%; 
+    margin-left:10px 10%; 
+    font-size: medium;
+    color:rgb(241, 234, 234);
+ }
+
+input{ 
+    width:100%;
+     padding:20px 20px; 
+     margin:8px 0;
+      box-sizing:border-box; 
+      border:none; 
+      border-bottom:2px solid rgb(228, 222, 222); 
+}
+
+ #Submit
+ {
+        background-color: rgb(239, 174, 54);
+        color:white;
+        padding-top:12px; 
+      
+        margin-top:30px;
+        margin-bottom:0;
+        width:100%;
+        font-size: 16px;
+        border:none; 
+        border-radius: 0 0 8px 8px;
+        cursor:pointer;
+}
