@@ -1,0 +1,160 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-gray{
+ background-color: rgb(192, 188, 188);
+}
+
+.text-font{
+    color:rgb(107, 223, 244);
+    font-weight: 100px;
+}
+
+.padding{
+    padding:5% 3%;
+}
+
+.font-family{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* custom style  */
+
+.cards-wrapper{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+
+
+.services-card{
+    width:30%;
+    box-shadow: 0px 0px 5px 2px rgb(107, 223, 244);
+    background-color: white;
+    position:relative;
+    overflow: hidden; 
+     
+}
+
+
+.services-card .main-img{
+    width:100%;
+    display:block; 
+}
+
+
+.services-card .small-img{
+    width:20%;
+    height: 15%;
+    border: 5px solid white;
+    border-radius: 50%;
+    position:absolute;
+    bottom:190px;
+    right:25px;
+     object-fit:cover; 
+     z-index: 3;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: rgb(246, 248, 249);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.image-wrapper{
+ position: relative;
+z-index:1;
+}
+
+.image-wrapper .main-img {
+  width: 100%;
+    z-index: 1; 
+}
+
+.image-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); 
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+    z-index: 2; 
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+
+.card-icons{
+    padding: 10px 5px;
+    font-size:18px;
+  
+}
+
+.card-icons a {
+    color: black; 
+    transition: color 0.3s ease; 
+}
+
+.card-icons a:hover {
+    color: rgb(107, 223, 244); 
+}
+
+
+.services-card i{
+    margin-right:10px;
+}
+
+.services-card a{
+    margin-right:15px;
+}
+
+.padding h4{
+    margin-bottom:10px;
+}
+
+hr{
+    height: 15px;
+    width:10%;
+    border:none;
+    height: 3px;
+    background-color: rgb(117, 117, 117);
+}
+
+.padding hr{
+    margin-bottom: 15px;
+   
+}
+
+.padding p{
+    line-height: 1.6;
+}
