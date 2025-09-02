@@ -1,0 +1,58 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+section{
+    background-image: url(../images/road-view-sied-isolated-white-background-3d-illustration_92790-2867.avif);
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.overflow-sec{
+    overflow:hidden ;
+}
+
+img{
+    animation-name:changeBg;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+ 
+    /* animation-delay:0.3s; */
+     animation-timing-function: linear;
+    
+
+}   
+
+
+@keyframes changeBg {
+
+
+    0% {
+        margin-left: 0%;
+    }
+
+
+
+     100% {
+        margin-left: 100%;
+} 
+}
