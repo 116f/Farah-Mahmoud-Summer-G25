@@ -1,0 +1,586 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-gray{
+ background-color: rgb(192, 188, 188);
+}
+
+.text-white{
+     color:white;
+}
+
+.text-black{
+   color:black;
+}
+.font-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin-top{
+margin-top: 5%;
+}
+
+.hr{
+    border:none;
+    border:2px solid rgb(230, 226, 226);
+    
+}
+.margin-bottom{
+    margin-bottom: 10%;
+}
+
+/* custom style  */
+
+.image{
+    background-image:url(../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba\ \(1\).png);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+nav{
+  display: flex;                 
+  justify-content:flex-start; 
+  align-items: center; 
+   align-content: left;           
+  background:transparent;           
+  padding: 1% 2%;
+  color: white;
+
+
+}
+
+.nav-left{
+   display: flex;
+   align-items:center;
+   gap:20px;
+}
+
+.nav-left-icons{
+
+   gap:20px;
+  
+}
+
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;       
+  gap: 40px;              
+  
+}
+
+
+.btn{
+    border-radius:25px;
+    padding:1%;
+    height: 10%;
+    font-weight: bold;
+    color:rgb(5, 25, 80);
+    background-color: white;
+    cursor:pointer;
+    transition:0.3s;
+    margin-left: 35%;
+ 
+}
+
+.btn-2{
+
+    background: transparent;
+    border:1px solid white;
+    color:white;
+    border-radius: 40px;
+    padding:2%;
+    margin-left:2%;
+ 
+}
+
+.menu-icon {
+  display: none; 
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+.paragraph{
+    padding:8% 0%;
+
+}
+
+.paragraph .h2{
+    width:30%;
+    margin-top: 10%;
+    margin-bottom:3% ;
+ 
+}
+
+p{
+    width:35%;
+    margin-bottom:5% ;
+}
+
+.l{
+    padding:2% 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.links .dropdown-menu{
+    display: none;
+    position:absolute;
+    background-color: white;
+    color:rgb(4, 30, 102);
+    border:1px solid rgb(213, 208, 208);
+    border-radius: 10%;
+    box-shadow:0px 0px 5px 5px gainsboro;
+}
+
+
+
+.links .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.links .dropdown-menu li {
+  padding: 5px 15px;
+}
+
+.Title{
+    margin-bottom: 2%;
+}
+
+.span{
+    font-size: 30px;
+    
+}
+
+.search-box{
+    position: relative;
+}
+
+.search-icon{
+    border-radius: 25px;
+    position: absolute;
+    padding-bottom: 2.5%;
+    padding-left: 4%;
+    width:100%;
+    height: 30%;
+    background-color: rgb(227, 224, 224);
+}
+
+.h2-form h2 {
+    margin: 0;         
+    width: auto;        
+    font-size: 24px;  
+   
+}
+
+
+.h2-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top:4%;
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+   
+}
+
+.display-images{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.img-3{
+ 
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 5%;
+    width:50%;     
+
+}
+
+
+.images{
+    width:65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.w-48{
+width:48%;
+margin:1% 0;
+}
+.single-img{
+
+    width: 32%;
+}
+
+.single-img img{
+    width:100%;
+    height: 100%;
+    
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.img {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.img img{
+    height:100% ;
+    width:100%;
+} 
+
+.Display{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+}
+
+.Space-P p{
+    margin-bottom: 1%;
+    width: 55%;
+    
+}
+
+.Cat-img{
+   position: relative;
+    width:90%;
+  
+    
+}
+
+.Cat-img img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.small-cat{
+    position: absolute;
+    width:40%;
+    border: 7px solid white;
+    bottom: -40px;  
+    left: -20px;
+   
+}
+
+.small-cat img{
+    width:100%;
+     border-radius: 12px;
+}
+
+.displayFlex{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-top: 5%;
+}
+
+.imaggge {    
+   
+    width:25%; 
+   
+}
+
+.imaggge img{
+    width:100%;
+     height: 100%; 
+    border-radius: 10px;
+}
+
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5% 0 2%;
+}
+
+.job {
+  font-size: 10px;
+  color: #777;
+  margin-bottom: 5%;
+}
+
+.social-icons i {
+  font-size: 20px;    
+  margin: 0 10%;   
+  color: #555;       
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #0077b5; 
+}
+
+.btn-read {
+  margin-top: 5%;
+  padding:2% 2%;
+  border: none;
+  border-radius: 20px;
+  background-color: #041016;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-read:hover {
+  background-color: #eceae8;
+  color:#041016;
+  border:2px solid black;
+}
+
+.space-h{
+    margin-bottom: 5%;
+
+}
+
+.hr-e{
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.width{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ gap:20px;
+}
+
+.left-content {
+ width: 50%;
+}
+.left-content p{
+    width: 100%;
+}
+
+.right-content{
+    width: 40%;
+    position: relative;
+}
+
+.right-content img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.play-button{
+    position: absolute;
+    top: 70px;
+    right:190px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 100px;
+    color: rgb(234, 233, 233);
+}
+
+
+.background{
+   background: linear-gradient(to right, #041016, #0d1d3d);
+}
+
+.get-in-touch .contact-wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.form{
+  width: 48%;
+  background-color: white;
+  color: rgb(2, 2, 29);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.name-row{
+  display: flex;
+  gap: 10px;
+}
+
+.inputs, .textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.textarea{
+  min-height: 100px;
+}
+
+.checkbox-row{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button{
+  background: linear-gradient(to right, #041016, #0d1d3d);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.contact-info{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.info-item{
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.contact-info .info-item{
+  flex: 0 0 48%;      
+  display: flex;        
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.info-item i{
+  font-size: 20px;
+  margin-top: 3%;
+  color: #fff;
+}
+
+.info-item h4{
+  margin-bottom: 5%;
+}
+
+.info-item a{
+  color: #fff;
+  font-size: 14px;
+}
+
+.info-item p{
+  width: auto;
+  margin: 2% 0;
+}
+
+.site-footer {
+  background: linear-gradient(to right, #041016, #0d1d3d);
+  color: #999;
+  font-size: 14px;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+}
+
+.site-footer .social-icons {
+  display: flex;      
+  gap: 10px;         
+}
+
+.site-footer .social-icons a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.newsletter {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.newsletter-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-form button {
+  padding: 10px 16px;
+  background: #fff;
+  color: #041016;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
