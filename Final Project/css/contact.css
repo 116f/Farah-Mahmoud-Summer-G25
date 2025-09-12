@@ -1,0 +1,137 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.dropdown-toggle img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+
+.fa-chevron-down {
+  font-size: 10px; 
+}
+
+.hover:hover{
+  color:rgb(196, 73, 20);
+}
+
+.logo-sm{
+    width:90px;
+}
+
+
+
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+.contact-info h6 {
+    font-weight: 600;
+}
+.contact-info p,
+.contact-info a {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.contact-info a {
+    text-decoration: underline;
+    color: black;
+}
+.form-control {
+    background-color: #f1f4f6;
+    border: none;
+    padding: 12px;
+}
+.form-control:focus {
+    background-color: #f1f4f6;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.btn-submit {
+    background: black;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+}
+.btn-submit:hover {
+    background: #333;
+}
+
+.store-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.store-card h5 {
+    font-weight: 700;
+    margin-top: 15px;
+}
+.store-card .details {
+    font-size: 15px;
+    color: #b5b6b7; 
+    margin: 0;
+}
+.store-card .phone {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+}
+
+#upArrow {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;    
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+  text-decoration: none; 
+}
+
+#upArrow .fa-arrow-up {
+  color: white;
+  font-size: 20px;
+}

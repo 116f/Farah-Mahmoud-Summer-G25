@@ -1,0 +1,540 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* global style */
+
+body{
+    font-family: "Robot", sans-serif;
+    background: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.dropdown-toggle img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+
+.fa-chevron-down {
+  font-size: 10px; 
+}
+
+.hover:hover{
+  color:rgb(196, 73, 20);
+}
+
+.logo-sm{
+    width:90px;
+}
+
+.carousel-item{
+    height:600px;
+    position:relative;
+}
+
+.custom-caption {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  text-align: left;
+  color: #000; 
+}
+
+.custom-caption p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.custom-caption h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.custom-caption .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.w-100{
+  width:100%;
+}
+
+
+/* custom style */
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background: #fff;
+}
+
+.offcanvas-body {
+    text-align: left !important;
+}
+
+.products-carousel .owl-nav.disabled {
+    display: none;
+  }
+
+
+.products-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+.products-carousel:hover .owl-nav {
+    display: flex !important;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width:100%;
+    transform:translateY(-50%);
+}
+
+
+.products-carousel .owl-nav .owl-prev{
+  border-radius:0px  5px  5px 0px;
+}
+
+.products-carousel .owl-nav .owl-next{
+  border-radius:5px  0px  0px 5px;
+}
+
+.products-carousel .owl-nav button:hover {
+  background: black;
+  color: white;
+  width:20px;
+  height:50px;
+}
+
+
+.logos-carousel .item img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(0);
+  transition: filter 0.3s ease;
+}
+.logos-carousel .item img:hover {
+  opacity: 0.6;
+}
+
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background-color: rgb(23, 22, 22);
+    bottom:5%;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width:100%;
+}
+
+.feature {
+  
+  display: flex;
+  align-items: center;   
+  gap: 10px;            
+  flex: 1;
+}
+
+.feature .icon {
+  font-size: 30px;       
+ 
+}
+
+.feature .text {      
+  display: flex;
+  flex-direction: column; 
+}
+
+.feature .title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+}
+
+.feature .desc {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.icon , .desc{
+    color:rgb(222, 218, 218);
+}
+
+
+
+.img-container {
+  width: 100%;  
+  height: 100%;      
+  overflow: hidden;  
+  position: relative;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.img-container img:hover {
+  transform: scale(1.2);       
+}
+
+
+.img-overlay {
+  position: absolute;
+  text-align: left;
+  color: white;
+}
+
+.overlay-sofa {
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+.overlay-plant {
+  top: 40%;
+  left: 15%;
+  transform: translate(0, -50%);
+  color: black;  
+}
+
+
+.overlay-lamp {
+  top: 40%;
+  left: 12%;
+  transform: translate(0, -50%);
+}
+
+
+.img-overlay h1, .img-overlay h2, .img-overlay h6 {
+  font-weight: bold;
+}
+
+.img-overlay p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+
+.img-overlay .btn {
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.img-overlay .btn:hover {
+  background: white;
+  color: black;
+}
+
+
+.text-dark-overlay .btn {
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+}
+
+.text-dark-overlay .btn:hover {
+  background: black;
+  color: white;
+}
+
+
+.underline {
+  text-decoration: underline;      
+  text-decoration-color: rgb(16, 15, 15);      
+  text-decoration-thickness: 2px;  
+  text-underline-offset: 4px;    
+}
+
+
+
+.product-card {
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 0%;
+}
+.product-card:hover {
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+
+
+.card-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.card-img-wrap img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+
+.card-icons {
+  position: absolute;
+  top: 20%;
+  right: 15px;  
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.product-card:hover .card-icons {
+  opacity: 1;
+}
+.card-icons button {
+  background: rgb(196, 194, 194);
+  border: none;
+  color: white;
+  width: 28px;
+  height: 28px;
+   border-radius: 10%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card-icons button:hover {
+  background: #070707; 
+  transform: scale(1.1);
+}
+
+.card-body{
+  text-align: left;
+}
+
+
+.see-all {
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  color: black;
+}
+.see-all::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: black;
+  transition: all 0.3s ease;
+}
+.see-all:hover {
+  color: #da4b1f;
+}
+.see-all:hover::after {
+  animation: underline-move 0.1s infinite alternate;
+  background: #da4b1f;
+}
+
+@keyframes underline-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(5px); }
+}
+
+
+
+
+
+
+.text-decoration-underline{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.width{
+  width:60px;
+}
+
+.department-card {
+  text-align: center;
+}
+
+.department-card img {
+  width: 100%;
+  aspect-ratio: 1/1; 
+  object-fit: contain;
+  border-radius: 50%;
+  background: #f5f5f5;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.department-card h6 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.department-card a {
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 5px;
+  color: black;
+}
+
+.department-card a:hover {
+  text-decoration: underline;
+}
+
+
+.department-card:hover img {
+  animation: shake 0.6s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+h2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sale-section {
+  position: relative;
+  margin: 50px auto;
+  width: 100%;
+}
+
+/*  SALE OFF */
+.sale-bg {
+  position: absolute;
+  top: 95%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;  
+  font-weight: bold;
+  color: rgba(222, 84, 16, 0.05);
+  transition: all 0.4s ease;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+.sale-bg:hover {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+
+.offers {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.circle {
+  width: 140px;  
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid rgb(165, 97, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+  color: brown;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.circle:not(.highlight):hover {
+  transform: scale(0.9);
+}
+
+.highlight {
+  background: brown;
+  color: white;
+}
+
+.highlight:hover {
+  transform: translateY(-12px);
+}
+
+#upArrow {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;    
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+  text-decoration: none; 
+}
+
+#upArrow .fa-arrow-up {
+  color: white;
+  font-size: 20px;
+}
+
+
